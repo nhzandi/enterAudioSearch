@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Show Microphone Input</title>
+	
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link href='https://fonts.googleapis.com/css?family=Righteous|Nova+Square' rel='stylesheet' type='text/css'>
+	  <link href="styles/normalize.css" rel="stylesheet" type="text/css">
+    <link href="styles/app.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+  <script>
+// $(document).ready(function(){
+//     $("h2").click(function(){
+//         $(this).hide();
+//     });
+// });
+
+// $(document).keydown(function(e){
+// // if (e.keyCode==90)
+//    alert("ctrl+z detected!");
+// });
+</script>
+</head>
+<body>
+  <div class="wrapper">
+    
+    <header>
+      <h1>Show Microphone Input</h1>
+      <!-- <h2>HIIIIIIII</h2> -->
+    </header>
+
+    <canvas class="visualizer" width="640" height="100"></canvas> 
+
+    <div id="rect"></div>
+    
+    <div class="fft-in">FFT Value:<span id="inp"></span></div>
+
+<h3>
+    <p>I was working with my computer, bored! Surfing the internet, I found my self </p>
+    <p>hitting the enter key so hard to search for things! Than I said myself, "It would </p>
+    <p>be fun to have a search engine that the harder you press the enter, the more accurate</p>
+    <p>the result that you get for your search." Than I started searching a little and came up </p>
+    <p>with this site. It's still not complete and not working write, but here's the basic. </p>
+    <p>Listening to your computer mic, and when you press enter, based on the firest element of </p>
+    <p>fourier transform, changes opacity of a box. It still has some problems such that you have to</p>
+    <p>press enter several tiems at row to work, etc. Still working on it and planning to add sth cool</p>
+    <p>like AI or sth else to the project. I would be happy to hear from you if you have some cool</p>
+    <p>ideas to add to the website. You can find the source at <a href="https://github.com/nhzandi/">github</a></p>
+    </h3>
+
+
+
+
+  </div>
+
+
+
+    <!-- Below is your custom application script -->
+
+    <script src="scripts/app.js"></script>
+    <script src="scripts/jq.js"></script>
+	  
+
+</body>
+</html>
